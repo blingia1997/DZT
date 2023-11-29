@@ -1,0 +1,640 @@
+*{	/* Clear all margin and padding  */
+	margin: 0;
+	padding: 0;
+}
+.size{/* Adjust size and font for the whole page */
+	height: 1000px;
+	font-family: arial narrow, calibri light, sans-serif;
+}
+.homebanner{/* Given a space for placing home page banner */
+	margin-top: 7vw;
+}
+/* set size and position the banner  */
+.homebanner img{
+	width: 100%;
+	
+}
+.bannerh1{ /* set size and position the font  */
+	text-align: center;
+	background-color: grey;
+  	color: whitesmoke;
+  	
+}
+header{
+	width: 100%;
+	height: 5%;
+	display: flex;
+	margin-bottom: 5vw;
+}
+.logo{/* For fitting size of the logo image */
+	width: 12%;
+	height: 12vw;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+nav{
+	height: 100%;
+	width: 88%;	
+	display: flex;	
+	padding-left: 6vw;
+}
+header li{
+	font-size: 1.2vw;
+	list-style-type: none;
+	display: inline-flex;
+	margin: 3vw 3vw 0% 3vw;
+
+}
+header ul{
+	width: 100%;
+	padding: 3% 0% 3% 0%;
+}
+.rewardlink{
+	margin: 0%;
+}
+a{
+	text-decoration: none;
+}
+.nopadding{/* Adjustment using padding */
+	padding-bottom: 5vw;
+}
+.dropdown{ /* forming a scroll down menu  */
+	padding: 0;
+	margin: 3% 0% 0% 0%;
+	width: 10%;
+	position: absolute;
+	z-index: 999;
+	display: none;
+} /* display style for scroll down menu  */
+li:hover ul.dropdown{
+	display: block;
+}
+.content{/* forming the content into a row */
+	margin-top: 8%;
+	display: flex;
+}
+.trending, .latte{/* size of the latte image */
+	width: 33%;
+}
+.trending{/* background color */
+	background-color: #404142;
+}
+.trending h1{/* color size and placement for header */
+	padding: 20% 0% 7% 10%;
+	font-size: 7vw;
+	color: whitesmoke;
+}
+.trending a{/* color box for background color */
+	padding: 3%;
+	margin: 5% 0% 0% 28%;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
+.latte{/* color box for background color of latte image */
+	background-color: whitesmoke;
+}
+.latte img{
+	width: 80%;
+	margin: 10%;
+	border-radius: 5%;
+
+}
+.latte p{/* description for latte */	
+	text-align: center;
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: lighter;	
+}
+a:hover{ /* set all hyperlinks hover style  */
+	text-decoration: underline;
+}
+a:active{ /* set all hyperlinks active color  */
+	color: grey;
+}
+
+.champion{ /* set a box for champion image  */
+	margin-top: 8%;
+	background-color: #404142;
+	display: flex;
+	
+}
+.champion2{/* set the size of the image for champion2 */
+	width: 45%;
+	margin-left: 5%;
+}
+.champion img{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5%;
+	border-radius: 10%;
+}
+.champion ul{/* place adjustment for unordered list */
+	margin: 12% 0% 8% 8%;
+
+}
+.champion ul li{
+	font-size: 4vw;
+	list-style-type: none;
+	font-weight: bolder;
+	color: whitesmoke;
+}
+.champion a{
+	padding: 3%;
+	background-color: whitesmoke;
+	border-radius: 5%;
+	margin: 12% 0% 0% 35%;	
+}
+.bean{ /* set a box size for insert image  */	
+	margin-top: 8%;
+	background-image: url("images&videos/bean.png");
+	background-size: cover;
+}
+.bean ul{
+	width: 64%;
+	padding: 5% 0% 26% 73%;
+	color: whitesmoke;
+	list-style-type: none;
+}
+.bean li{
+	font-size: 3vw;
+	width: 40%;
+	font-weight: bolder;
+}
+footer{/* style of the page footer */
+	margin-top: 2%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: center;
+}
+.foot{ /* footer style  */
+	padding: 1%;	
+	background-color: white;
+	color: black;
+	
+}
+.coffeearticle{/* adjust placement of coffee page */
+	margin-top: 8.5vw;
+}
+#espressotitle{ /* set espresso blend style  */
+	color: rgba(255, 253, 243, 1);
+	text-align: center;
+	margin-top: 2%;
+	padding: 1%;
+	font-size: 50px;
+	font-family: sans-serif;
+	background-color: #404142;
+}
+#espressobar{/* adjust the placement of the esspressobar part */
+	display: flex;
+}
+.espressobean{ /* set box style  */
+	width: 23vw;
+	background-color: whitesmoke;
+	text-align: center;
+	margin: 5% auto;
+}
+/* set font style  */
+.espressobean p, .barcontent, .drink p, .driptext, .homebanner, .signtext, .logincontent, .career{ 
+	font-family: arial narrow,sans-serif;
+}
+.espressocolor{ /* set box style  */
+	background-image: url(images&videos/cardboard.webp);
+	margin: 10% 5%;
+	color: #ededed;
+	font-family: arial narrow,sans-serif;
+}
+.espressocolor p{
+	padding: 20px;
+	font-size: 10px;
+}
+.espressocolor h5,h3{
+	padding: 25px;
+}
+#drinkbar{ /* set image style  */
+	height: 600px;
+	background-image: url(images&videos/coffeebar.jpg);
+	background-size: cover;
+	opacity: 0.8;
+}
+.barside{ /* position the image  */
+	width: 30%;
+	float: right;
+	margin: 50px;
+	clear: both;	
+}
+.barcontent,.barcontent li{ 
+	margin: 15px;
+	list-style-type: none;
+}
+.drinkbox{/* adjust the placement of the drinkbox part */
+	display: flex;
+	margin-bottom: 8%;
+}
+.drink{ /* box style  */
+	width: 20%;
+	height: 75%;
+	background-color: whitesmoke;
+	margin-top: 5%;
+	margin-left: 4%;
+}
+.drink img{ 
+	width: 70%;
+	margin: 10% 15%;
+}
+.drink p{
+	text-align: center;
+}
+.dripbox{ /* set box size  */
+	display: flex;
+	background-color: #404142;
+	padding: 5%;
+}
+.dripbox img{
+	height: 80%;	
+}
+.driptext{ /* set position and opacity to font  */
+	height: 80%;
+	width: 49%;
+	padding-top: 8vw;
+	font-size: 3vw;
+	color: whitesmoke;
+	opacity: 0.9;
+}
+.rewardbox{/* adjustment of size placement and style of the rewardbox */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	display: flex;
+	padding: 5%;
+	margin-top: 3%;
+}
+#sidesign{ /* set box size and style  */
+	width: 30%;
+	height: 40vw;
+	margin: auto 0;
+	border: 20px solid #404142;
+	text-align: center;
+}
+#sidesign img {
+	width: 20vw;
+	object-fit: contain;
+}
+.signtext{ /* font style  */
+	font-size: 2vw;
+	margin: 5% auto;
+}
+.loginsize{/* display the size of the word in login page */
+	font-size: 1vw;
+}
+#loginlink{ /* hyperlink style  */
+	padding: 3%;
+	text-align: center;
+	background-color: #404142;
+	color: whitesmoke;
+}
+.logincontent{ /* set box size and position  */
+	width: 50%;
+	margin-left: 3%;
+	font-size: 3vw;
+}
+.logincontent p{
+	font-size: 1.2vw;
+}
+#coin, .mobile, .card{ /* add size and border style   */
+	display: flex;
+	border-bottom: 1px solid lightgrey;
+}
+#coin img, .mobile img, .card img{
+	width: 16vw;
+	
+}
+.coincsize { /* set image padding  */
+	margin: 3vw 0;
+}
+.mobilesize{	/* set image padding  */
+	margin: 4vw 0;
+}
+ .cardsize{	/* set image padding  */
+ 	margin: 6vw 0;
+ }
+ .career{/* height of the career part */
+ 	height: 40vw;
+ }
+.career img{
+	height: 100%;
+	width: 100%;
+}
+.careerh1{ /* adjustment header1 to the center of the page*/
+	text-align: center;
+	background-color: #404142;
+	color: ghostwhite;
+	padding: 1%;
+}
+.careercontent{ /* set box size  */
+	height: 45vw;
+	margin-top: 5%;
+	background-color: #404142;
+}
+.careercontent p{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 8vw;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 4vw;
+}
+.careercontent2{ /* set size and style  */
+	background-color: whitesmoke;
+	height: 60vw;
+	text-align: center;
+}
+.careercontent2 h1,p{
+	font-size: 2vw;
+}
+.careercontent2 h1{ /* set font size  */
+	padding-top: 21vw;	
+}
+.careercontent3{ /* set box size  */
+	margin-top: 4%;
+	display: flex;
+	background-color: #404142;
+	height: 50vw;
+}
+.sidecontent3{ /* set box size and position  */
+	width: 60%;
+	
+}
+.poscontent3{ /* set box style  */
+	width: 80%;
+	font-size: 2vw;
+	color: whitesmoke;
+	margin: 19vw auto;
+}
+.imgcontent3{  /* set size and insert background image  */
+	width: 40%;
+	background-image: url(images&videos/man.jpeg);
+	background-size: cover;
+}
+.we{ /* article box style  */
+	color: whitesmoke;
+	padding: 1%;
+	text-align: center;
+	margin-top: 9vw;
+}
+
+.map{	/* article image style  */
+	height: 38vw;
+	background-image: url(images&videos/map.png);
+	background-size: cover;
+}
+
+.mbox{ /* article box display style  */
+	display: flex;
+	margin: 0 auto;
+}
+
+.box{ /* article box size and style  */
+	width: 20%;
+	max-height: 25vw;
+	padding: 10px;
+	margin: 15vw auto;
+	background-color: white;
+	line-height: 3vw;
+	border-radius: 20px;
+}
+.box p{
+	font-size: 1.2vw;
+
+}
+.box b{
+	font-size: 2vw;
+
+}
+.locationfont, .aboutfont{ /* location and about pages font style  */
+	font-family: arial narrow,sans-serif;
+	background-color: #404142;
+	margin-top: 3%;
+	width: 100%;
+}
+.ab{ /* about page h1 and p style  */
+	color: whitesmoke;
+	font-size: 20px;
+	margin-top: 8vw;
+}
+
+.ab h1{
+	text-align: center;
+	padding-top: 3%;
+}
+.ab p{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.2vw;
+}
+.pfp{ /* about page image display style  */
+	display: inline-block;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.KM img{
+	width: 10vw;
+	height: 10vw;
+	padding-top: 5%;
+
+}
+
+.z img{
+	width: 10vw;
+	height: 10vw;
+	padding-top: 5%;
+}
+
+.kingsley img{
+	width: 10vw;
+	height: 10vw;
+	padding-top: 5%;
+}
+
+.KM{  /* about page image style  */
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 2.5%;
+	background-color: whitesmoke;
+	width: 400px;
+	text-align: center;
+}
+
+.z{ /* about page image style  */
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 2.5%;
+	background-color: whitesmoke;
+	width: 400px;
+	text-align: center;
+}
+
+.kingsley{ /* about page image style  */
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 2.5%;
+	background-color: whitesmoke;
+	width: 400px;
+	text-align: center;
+}
+.pfp li{
+	list-style-type: none;
+}
+.sponsor{ /* about page sponsor style  */	
+	border-radius: 15px;
+	font-size: 1.5vw;
+	border: 1px solid black;
+	margin: 5% auto;
+	background-color: whitesmoke;
+	line-height: 25px;
+	width: 10%;
+	line-height: 150%;
+}
+.sponsor a{
+	text-decoration: underline;
+}
+/* Header Style */
+.darrence_body, .h1_darrence, .darrence_p, .darrence_ul, .darrence_li, .darrence_form {
+    margin: 0;
+    padding: 0;
+}
+.darrence_body { /* feedback page body style  */
+    font-family: 'Arial', sans-serif;
+    
+    color: #333;
+}
+
+/* Header Style */
+.darrence_header {
+    background-color: #fff;
+    color: #000;
+    padding: 25px;
+    text-align: center;
+}
+
+.darrence_header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.darrence_div { /* logo style  */
+    margin-left: 60px;
+}
+/* Navigation Style */
+.darrence_nav {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+}
+
+.darrence_nav ul {	
+    list-style-type: none;
+}
+
+.darrence_nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+.darrence_header{/* create a space for the header */
+	margin-bottom: 6vw;
+}
+.darrence_header2{/* create a space for the header2 */
+	margin-bottom: 9vw;
+}
+/* Article Style */
+.darrence_article {
+    margin: 100px;
+
+}
+
+.h1_darrence {	/* login page h1 style  */
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.darrence_form { /* form style  */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.darrence_label{ /* login page input type style  */
+    margin-bottom: 5px;
+}
+
+.darrence_input[type="text"],
+.darrence_input[type="password"],
+.darrence_input[type="email"],
+.darrence_input[type="tel"],
+.darrence_input[type="number"],
+.darrence_textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.darrence_input[type="submit"]{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Footer Style */
+.darrence_footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+/* General Style */
+a {
+    color: black;
+}
+
+.darrence_div img {
+    width: 100px;
+    height: 100px;
+}
+legend, .gocenter{	/* feedback page legend and word style  */
+	text-align: center;
+}
+fieldset{ /* fieldset style  */
+	width: 50%;
+	margin: 0 auto;
+}
+.caption1{/* adjust space and placement of caption1 */
+	caption-side: bottom;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+.capgotop{/* adjust the placement of the caption to the top */
+	caption-side: top;
+}
+.lasttable,th{
+	border: 2px solid black;
+	margin: 0 auto;
+}
+.tabletd{/* place the table data to the center of the column and style */
+	text-align: center;
+	border: 1px solid black;
+}
